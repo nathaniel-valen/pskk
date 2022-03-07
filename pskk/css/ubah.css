@@ -1,0 +1,57 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: teal;
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	background: cadetblue;
+    border-radius: 20px;
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    list-style-type: none;
+}
+
+form {
+    overflow: hidden;
+}
+
+input {
+    padding: 4px;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 100px;
+    float: right;
+    width: 360px;
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    font-size: medium;
+    text-align: left;
+}
+
+
+li {
+    margin-top: 15px;
+    padding-top: 5px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 0;
+    margin: 0px auto px auto;
+    transition: 0.5s;
+}
